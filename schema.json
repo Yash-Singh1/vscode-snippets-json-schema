@@ -45,6 +45,6 @@
       }
     },
     "additionalProperties": false,
-    "required": ["prefix", "body"]
+    "required": ["body"]
   }
 }
