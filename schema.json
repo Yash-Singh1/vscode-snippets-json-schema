@@ -1,6 +1,6 @@
 {
-  "$schema": "http://json-schema.org/schema#",
-  "id": "https://raw.githubusercontent.com/Yash-Singh1/vscode-snippets-json-schema/main/schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/Yash-Singh1/vscode-snippets-json-schema/main/schema.json",
   "description": "Snippet configuration.",
   "type": "object",
   "additionalProperties": {
@@ -44,7 +44,7 @@
         "default": ""
       },
       "scope": {
-        "description": "A list of language names to which this snippet applies, seperated by a comma. E.g. \"javascript,typescript\".",
+        "description": "A list of language names to which this snippet applies, separated by a comma. E.g. \"javascript,typescript\".",
         "type": "string",
         "default": ""
       }
